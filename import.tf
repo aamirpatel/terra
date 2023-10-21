@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
     location = "westus"
-    name     = "rohit-rg"
+    name     = "amir-rg"
 }
 
 provider "azurerm" {
