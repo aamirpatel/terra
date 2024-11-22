@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
+/*resource "azurerm_resource_group" "example" {
     location = "westus"
     name     = "amir-rg"
 }
@@ -78,4 +78,4 @@ resource "azurerm_virtual_machine" "main" {
   tags = {
     environment = "staging"
   }
-}
+}*/
