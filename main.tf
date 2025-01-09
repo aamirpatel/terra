@@ -19,6 +19,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "example" {
   bucket = "my-tf-test-bucket7112081"
+  encrypt = "true"
 
   tags = {
     Name        = "My bucket"
