@@ -24,7 +24,7 @@ resource "aws_kms_key" "mykey" {
   deletion_window_in_days = 10
 }
 
-resource "aws_s3_bucket" "mybucket" {
+resource "aws_s3_bucket" "mybucket1" {
   bucket = "my-tf-test-bucket7112081"
 }
 
