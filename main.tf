@@ -10,16 +10,16 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
-/*resource "aws_vpc" "dev-vpc" {
+resource "aws_vpc" "dev-vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "dev-vpc"
+    Name = "dev-vpc1"
   }
-} */
+} 
 
 
 
-resource "aws_kms_key" "mykey" {
+/*resource "aws_kms_key" "mykey" {
   description             = "This key is used to encrypt bucket objects"
   deletion_window_in_days = 10
 }
@@ -37,4 +37,4 @@ resource "aws_s3_bucket" "mybucket" {
       sse_algorithm     = "aws:kms"
     }
   }
-}
+}*/
